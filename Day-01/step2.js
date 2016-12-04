@@ -52,5 +52,5 @@ fs.readFile('./input.txt', 'utf8', (err, data) => {
         }
     });
     
-    console.log(tmpX+tmpY);
+    console.log("Answer: "+(Math.abs(tmpX)+Math.abs(tmpY)));
 });

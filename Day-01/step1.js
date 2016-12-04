@@ -21,5 +21,5 @@ fs.readFile('./input.txt', 'utf8', (err, data) => {
         }
     });
     
-    console.log("Answer: "+(x+y));
+    console.log("Answer: "+(Math.abs(x)+Math.abs(y)));
 });
