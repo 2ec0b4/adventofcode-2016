@@ -5,6 +5,7 @@ These are my solutions to [advent of code](http://adventofcode.com/2016)
 
 ## How to use it ##
 
+    $ npm install
     $ vi Day-X/input.txt
     $ node Day-X/step1.js
     $ node Day-X/step2.js
