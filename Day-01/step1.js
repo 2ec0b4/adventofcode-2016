@@ -1,7 +1,7 @@
 var _ = require('lodash'),
     fs = require('fs');
 
-fs.readFile('./input.txt', 'utf8', (err, data) => {
+fs.readFile(__dirname+'/input.txt', 'utf8', (err, data) => {
     var x = y = 0,
         directionX = directionY = 1,
         instructions;
