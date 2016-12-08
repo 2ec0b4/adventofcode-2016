@@ -17,8 +17,6 @@
   },
   "homepage": "https://github.com/2ec0b4/adventofcode-2016#readme",
   "dependencies": {
-    "cli-spinner": "^0.2.5",
-    "lodash": "^4.17.2",
-    "md5": "^2.2.1"
+    "lodash": "^4.17.2"
   }
 }
