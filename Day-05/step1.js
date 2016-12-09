@@ -3,10 +3,6 @@ var _ = require('lodash'),
     Spinner = require('cli-spinner').Spinner,
     md5 = require('md5');
 
-console.reset = function () {
-    return process.stdout.write('\033c');
-}
-
 fs.readFile(__dirname+'/input.txt', 'utf8', (err, data) => {
     var i = 0,
         password = "",
