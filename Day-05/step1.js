@@ -1,7 +1,6 @@
 var _ = require('lodash'),
     fs = require('fs'),
     Spinner = require('cli-spinner').Spinner,
-    clear = require('clear'),
     md5 = require('md5');
 
 console.reset = function () {
