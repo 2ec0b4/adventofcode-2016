@@ -15,7 +15,7 @@ fs.readFile(__dirname+'/input.txt', 'utf8', (err, data) => {
     if (err) return console.error(err);
 
     lines = _.map(_.split(data, "\n"), _.trim);
-    _.forEach(lines, (line, index) => {
+    _.forEach(lines, (line) => {
         ranking = [];
         checksum = line.match(/.+\[(.+)\]$/)[1];
         encrypted = line.match(/^(.+)-[0-9]+\[.+\]$/)[1];
