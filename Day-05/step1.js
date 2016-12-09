@@ -24,7 +24,7 @@ fs.readFile(__dirname+'/input.txt', 'utf8', (err, data) => {
         while(password.length<8) {
             str = md5(data+i);
             if (str.slice(0, 5) === "00000") {
-                password += str.slice(5, 6);
+                password += str.charAt(5);
 //                spinner.stop(true);                
 //                spinner = new Spinner(_.padEnd(password, 8, '*'));
 //                spinner.setSpinnerString('|/-\\');

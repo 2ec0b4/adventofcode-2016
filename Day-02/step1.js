@@ -17,7 +17,7 @@ fs.readFile(__dirname+'/input.txt', 'utf8', (err, data) => {
     lines    = _.split(data, "\n");
     _.forEach(lines, function(line) {
         for(var i=0, end=line.length;i<end;i++) {
-            char = line.slice(i,i+1);
+            char = line.charAt(i);
             switch(char) {
                 case "U":
                     y = Math.min(y+1, 2);

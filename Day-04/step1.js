@@ -23,7 +23,7 @@ fs.readFile(__dirname+'/input.txt', 'utf8', (err, data) => {
         nbCharMax = encrypted.length;
 
         while(nbChar<nbCharMax) {
-            char = encrypted.slice(nbChar, nbChar+1);
+            char = encrypted.charAt(nbChar);
             nbChar++;
 
             if( char === "-" ) {
